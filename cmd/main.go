@@ -18,5 +18,5 @@ func main() {
 	if err != nil {
 		log.Fatalf("could not load configuration file: %v", err)
 	}
-	fmt.Println(config.Server.Host)
+	fmt.Println(config.Environment)
 }
